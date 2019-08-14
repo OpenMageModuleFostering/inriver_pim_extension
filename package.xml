@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>InRiver_PIM_Extension</name>
+    <version>5.3.0.0</version>
+    <stability>stable</stability>
+    <license>GNU General Public License (GPL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Integrate inRiver PIM &amp; Magento with this extension package</summary>
+    <description>inRiver Product Information Management (PIM) handle all product data like creating and editing. With inRiver Connect running modifications in inRiver PIM will send events to Magento, keeping your information in sync. For instance a deletion of a product in inRiver PIM triggers automatically a deletion in Magento.&#xD;
+&#xD;
+Where is it possible, the standard SOAP v1 Api is used, but there are cases where it has been extended. For that reason we have the inRiver Magento Extension. </description>
+    <notes>First Stable Version.</notes>
+    <authors><author><name>Andreas Hellstr&#xF6;m</name><user>andhel</user><email>andreas.hellstrom@inriver.com</email></author><author><name>Fredrik Lundgren</name><user>fredriklundgren</user><email>fredrik.lundgren@inriver.com</email></author></authors>
+    <date>2014-01-10</date>
+    <time>09:01:09</time>
+    <contents><target name="magecommunity"><dir name="InRiver"><dir name="Catalog"><dir name="Helper"><file name="Data.php" hash="87979710c30d9b86cb8d5df2b579db2c"/></dir><dir name="Model"><dir name="Category"><file name="Api.php" hash="33d959b04f0f9244fcbe4cd9921558f4"/></dir><dir name="Product"><file name="Api.php" hash="e36745486a9ea563ab3923586c7314af"/><dir name="Attribute"><file name="Api.php" hash="ab0fcd65f0c8a544d7b3ef0e88d2bdc6"/><dir name="Media"><file name="Api.php" hash="595b1a985aa16f888cc2c77ac73e90ff"/></dir><dir name="Set"><file name="Api.php" hash="49dec7aaf7ac9df7ba6dda9a147b0b4c"/></dir></dir></dir><dir name="Store"><file name="Api.php" hash="8ba907b0be5ccd468804c56fd502d692"/></dir></dir><dir name="etc"><file name="api.xml" hash="5bdcb2234ca8bda6c53c541fe42d8305"/><file name="config.xml" hash="5fb21519284e975ae996d1b7a96381c7"/></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>5.5.6</max></php></required></dependencies>
+</package>

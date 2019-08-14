@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+ <modules>
+    <InRiver_Catalog>
+      <version>0.0.1</version>
+      <depends>
+        <Mage_Catalog />
+      </depends>
+    </InRiver_Catalog>
+  </modules>
+  <global>
+        <models>
+            <catalog>
+                <rewrite>
+                    <category_api>InRiver_Catalog_Model_Category_Api</category_api>
+                    <product_api>InRiver_Catalog_Model_Product_Api</product_api>
+                    <product_attribute_api>InRiver_Catalog_Model_Product_Attribute_Api</product_attribute_api>
+                    <product_attribute_media_api>InRiver_Catalog_Model_Product_Attribute_Media_Api</product_attribute_media_api>   
+                    <product_attribute_set_api>InRiver_Catalog_Model_Product_Attribute_Set_Api</product_attribute_set_api>
+                    <store_api>InRiver_Catalog_Model_Store_Api</store_api>
+                </rewrite>
+            </catalog>
+        </models>
+    </global>
+</config>

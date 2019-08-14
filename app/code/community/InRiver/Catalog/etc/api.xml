@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<config>
+  <api>
+    <resources>
+      <catalog_category translate="title" module="catalog">
+        <title>Category</title>
+        <model>catalog/category_api</model>
+        <methods>
+        </methods>
+      </catalog_category>
+      <catalog_product translate="title" module="catalog">
+        <title>Product</title>
+        <model>catalog/product_api</model>
+        <methods>
+          <defineSuperAttributesForProduct translate="title" module="catalog">
+            <title>Define Super attributes</title>
+          </defineSuperAttributesForProduct>
+          <findSuperLinks translate="title" module="catalog">
+            <title>List super links for product</title>
+          </findSuperLinks>
+          <addSuperLink translate="title" module="catalog">
+            <title>Add Super Links</title>
+          </addSuperLink>
+          <getProductFromEntityId translate="title" module="catalog">
+            <title>GetProductFromEntityId</title>
+          </getProductFromEntityId>
+          <deleteSuperLink translate="title" module="catalog">
+            <title>deleteSuperLink</title>
+          </deleteSuperLink>
+          <listLinkCodes translate="title" module="catalog">
+            <title>listLinkCodes</title>
+          </listLinkCodes>
+          <findLinks translate="title" module="catalog">
+            <title>findLinks</title>
+          </findLinks>
+        </methods>
+      </catalog_product>
+      <catalog_product_attribute translate="title" module="catalog">
+        <title>Product Attribute</title>
+        <model>catalog/product_attribute_api</model>
+        <methods>
+          <listAllAttributes translate="title" module="catalog">
+            <title>listAllAttributes</title>
+          </listAllAttributes>
+          <updateAttributeOptions translate="title" module="catalog">
+            <title>updateAttributeOptions</title>
+          </updateAttributeOptions>
+        </methods>
+      </catalog_product_attribute>
+      <catalog_product_attribute_set translate="title" module="catalog">
+        <title>Product Attribute Set</title>
+        <model>catalog/product_attribute_set_api</model>
+        <methods>
+          <groupList translate="title" module="catalog">
+            <title>Group List</title>
+          </groupList>
+          <attributesForGroupId translate="title" module="catalog">
+            <title>attributesForGroupId</title>
+          </attributesForGroupId>
+          <create translate="title" module="catalog">
+            <title>create</title>
+          </create>
+        </methods>
+      </catalog_product_attribute_set>
+      <store translate="title" module="catalog">
+        <title>Store</title>
+        <model>catalog/store_api</model>
+        <methods>
+        </methods>
+      </store>
+    </resources>
+  </api>
+</config>
