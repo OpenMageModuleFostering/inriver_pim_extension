@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/InRiver_PIM_Extension",
+    "name": "OpenMageModuleFostering\/InRiver_PIM_Extension",
     "type": "magento-module",
     "license": "GNU-General-Public-License-(GPL)",
     "homepage": "",
     "description": "Integrate inRiver PIM & Magento with this extension package",
     "authors": [
-    {
-        "name": "Andreas Hellstr\u00f6m",
-        "email": "andreas.hellstrom@inriver.com"
-    }
-],
+        {
+            "name": "Andreas Hellstr\u00f6m",
+            "email": "andreas.hellstrom@inriver.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
